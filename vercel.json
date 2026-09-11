@@ -1,4 +1,7 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }],
+  "rewrites": [
+    { "source": "/health", "destination": "/api/index" },
+    { "source": "/agent/refund", "destination": "/api/index" }
+  ],
   "outputDirectory": "public"
 }
